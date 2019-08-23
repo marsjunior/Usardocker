@@ -1,6 +1,6 @@
 # Comandos simples docker
 
-Pesquisar imagens disponiveis
+Pesquisar imagens disponíveis
 ```
   docker search "nome da imagem a ser pesquisada"
 ```
@@ -8,7 +8,7 @@ Baixar imagem
 ```
   docker pull "nome da imagem"
 ```
-Executar um contaner
+Executar um container
 
 ```
   docker run -it "nome da imagem"
@@ -17,11 +17,11 @@ Salvar modificações da imagem
 ```
   docker commit "id do container"
 ```
-Matar um container
+Encerrar um container
 ```
   docker rm "id do container"
 ```
-Matar todos os container
+Encerrar todos os container
 ```
   docker rm $(docker ps -qa)
 ```
