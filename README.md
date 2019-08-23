@@ -8,7 +8,7 @@ Baixar imagem
 ```
   docker pull "nome da imagem"
 ```
-Executa um contaner
+Executar um contaner
 
 ```
   docker run -it "nome da imagem"
@@ -16,4 +16,12 @@ Executa um contaner
 Salvar modificações da imagem
 ```
   docker commit "id do container"
+```
+Matar um container
+```
+  docker rm "id do container"
+```
+Matar todos os container
+```
+  docker rm $(docker ps -qa)
 ```
