@@ -19,9 +19,17 @@ Salvar modificações da imagem
 ```
 Encerrar um container
 ```
-  docker rm "id do container"
+  docker stop "id do container"
 ```
 Encerrar todos os container
+```
+  docker stop $(docker ps -qa)
+```
+Deletar um container
+```
+  docker rm "id do container"
+```
+Deletar todos os container
 ```
   docker rm $(docker ps -qa)
 ```
